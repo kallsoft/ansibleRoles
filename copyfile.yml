@@ -1,5 +1,5 @@
 - name: Copy file to target servers
-  hosts: pooja
+  hosts: 192.168.1.218
   tasks:
     - name: Copy file
       copy:
