@@ -3,5 +3,5 @@
   tasks:
     - name: Copy file
       copy:
-        src: ~/Documents/index.html
-        dest: ~/Downloads/index.html
+        src: ~/Documents/virus.txt
+        dest: ~/Downloads/virus.txt
