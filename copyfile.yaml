@@ -5,3 +5,4 @@
       copy:
         src: ~/Documents/virus.txt
         dest: ~/Downloads/virus.txt
+        remote_src: yes
