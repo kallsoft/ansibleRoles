@@ -3,6 +3,6 @@
   tasks:
     - name: Copy file
       copy:
-        src: ~/Documents/virus.txt
-        dest: ~/Documents/virus.txt
+        src: /tmp/test-file.txt
+        dest: /tmp/test-file.txt
         remote_src: yes
