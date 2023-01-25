@@ -1,5 +1,5 @@
 - name: Copy file from remote to local
-  hosts: 192.168.1.218
+  hosts: pooja
   tasks:
     - name: Copy file
       synchronize:
