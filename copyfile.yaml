@@ -5,4 +5,3 @@
       synchronize:
         src: /home/navya/Documents/virus.txt
         dest: /home/aviksha/Documents/virus.txt
-        remote_src: yes
