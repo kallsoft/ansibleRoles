@@ -1,8 +1,8 @@
-- name: Copy file to target servers
-  hosts: 192.168.1.200
+- name: Copy file from remote to local
+  hosts: remote_machine
   tasks:
     - name: Copy file
-      copy:
-        src: /tmp/test-file.txt
-        dest: /tmp/test-file.txt
+      synchronize:
+        src: /home/navya/Documents/virus.txt
+        dest: /home/aviksha/Documents/virus.txt
         remote_src: yes
