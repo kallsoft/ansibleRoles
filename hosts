@@ -1,2 +1,3 @@
 [servers]
-pooja ansible_host=192.168.1.218 ansible_user=pooja
+192.168.1.218
+192.168.1.200
