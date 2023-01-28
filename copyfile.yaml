@@ -1,7 +1,11 @@
-- name: Copy file from remote to local
+- name: Copy file to host
   hosts: 192.168.1.200
+  gather_facts: false
+  vars:
+    src: /home/navya/Documents/virus.txt
+    dest: /home/aviksha/Documents/virus.txt
   tasks:
-    - name: Copy file
+    - name: Copy file to remote host
       synchronize:
-        src: /home/navya/Documents/virus.txt
-        dest: /home/pooja/Documents/virus.txt
+        src: "{{ src }}"
+        dest: "{{ dest }}"
