@@ -5,3 +5,4 @@ nireekshitha ansible_host=192.168.1.246 ansible_user=nireekshitha
 chaitra ansible_host=192.168.1.214 ansible_user=chaitra
 tejaswinisuvarna ansible_host=192.168.1.215 ansible_user=tejaswinisuvarna
 rashmitha ansible_host=192.168.1.241 ansible_user=rashmitha
+pooja ansible_host=192.168.1.218 ansible_user=pooja
