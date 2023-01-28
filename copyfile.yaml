@@ -1,9 +1,9 @@
 - name: Copy file to host
-  hosts: 192.168.1.200
+  hosts: 192.168.1.218
   gather_facts: false
   vars:
     src: /home/navya/Documents/thoughtfortheday.txt
-    dest: /home/aviksha/Documents/thoughtfortheday.txt
+    dest: /home/pooja/Documents/thoughtfortheday.txt
   tasks:
     - name: Copy file to remote host
       synchronize:
