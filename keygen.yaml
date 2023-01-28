@@ -1,0 +1,18 @@
+---
+- name: Generate keygen and copy to all hosts
+  hosts: all
+  tasks:
+    - name: Generate keygen
+      command: ssh-keygen -t rsa -b 4096 -C "ansible@{{ ansible_hostname }}"
+      args:
+        creates: /root/.ssh/id_rsa
+
+    - name: Copy keygen to host playbook code
+      copy:
+        src: /root/.ssh/id_rsa.pub
+        dest: /root/ansible/keygen
+
+    - name: Copy keygen to host code
+      synchronize:
+        src: /root/.ssh/id_rsa.pub
+        dest: /root/.ssh/authorized_keys

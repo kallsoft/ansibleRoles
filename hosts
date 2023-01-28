@@ -1,3 +1,7 @@
-[servers]
-192.168.1.218
-192.168.1.200
+aviksha ansible_host=192.168.1.200 ansible_user=aviksha
+deepashree ansible_host=192.168.1.206 ansible_user=deepashree
+sriraksha ansible_host=192.168.1.210 ansible_user=sriraksha
+nireekshitha ansible_host=192.168.1.246 ansible_user=nireekshitha
+chaitra ansible_host=192.168.1.214 ansible_user=chaitra
+tejaswinisuvarna ansible_host=192.168.1.215 ansible_user=tejaswinisuvarna
+rashmitha ansible_host=192.168.1.241 ansible_user=rashmitha

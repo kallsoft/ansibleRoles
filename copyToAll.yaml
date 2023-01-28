@@ -1,0 +1,7 @@
+- name: Copy file to web hosts
+  hosts: all
+  tasks:
+    - name: Copy file
+      synchronize:
+        src: ~/Documents/thoughtfortheday.txt
+        dest: ~/Documents/thoughtfortheday.txt

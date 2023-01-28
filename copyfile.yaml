@@ -2,8 +2,8 @@
   hosts: 192.168.1.200
   gather_facts: false
   vars:
-    src: /home/navya/Documents/virus.txt
-    dest: /home/aviksha/Documents/virus.txt
+    src: /home/navya/Documents/thoughtfortheday.txt
+    dest: /home/aviksha/Documents/thoughtfortheday.txt
   tasks:
     - name: Copy file to remote host
       synchronize:
